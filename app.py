@@ -19,7 +19,7 @@ def get_info():
         "email": email,
         "current_datetime": utc_now,
         "github_url": github_url
-    })
+    }), 200
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5001)

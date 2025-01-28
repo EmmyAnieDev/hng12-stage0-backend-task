@@ -5,6 +5,7 @@ This is a simple REST API built with Python Flask that returns basic information
 ## Description
 
 This API provides a single endpoint that returns:
+
 - The developer's email address
 - Current datetime in ISO 8601 format (UTC timezone)
 - GitHub repository URL containing the project codebase
@@ -12,23 +13,27 @@ This API provides a single endpoint that returns:
 ## Setup Instructions
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/EmmyAnieDev/hng12-stage0-backend-task
    cd hng12-stage0-backend-task
-```
+   ```
 
 2. Create a virtual environment and activate it:
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 ```
 
 3. Install dependencies:
+
 ```bash
 pip install flask flask-cors
 ```
 
 4. Run the application:
+
 ```bash
 python app.py
 ```
@@ -46,9 +51,9 @@ The API will be available at `http://localhost:5001`
 
 ```json
 {
-    "email": "emmanuelekwere19@gmail.com",
-    "current_datetime": "2025-01-30T09:30:00Z",
-    "github_url": "https://github.com/EmmyAnieDev/hng12-stage0-backend-task"
+  "email": "emmanuelekwere19@gmail.com",
+  "current_datetime": "2025-01-30T09:30:00Z",
+  "github_url": "https://github.com/EmmyAnieDev/hng12-stage0-backend-task"
 }
 ```
 
@@ -61,6 +66,10 @@ curl http://localhost:5001/
 ```
 
 Or in your browser: http://localhost:5001/
+
+## Deployment
+
+This API is deployed at: https://hng12-stage0-backend-task.onrender.com
 
 ## Related Links
 
