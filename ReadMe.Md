@@ -15,8 +15,8 @@ This API provides a single endpoint that returns:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/EmmyAnieDev/hng12-stage0-backend-task
-   cd hng12-stage0-backend-task
+   git clone https://github.com/EmmyAnieDev/hngx-stage0-basic-information-api.git
+   cd hngx-stage0-basic-information-api
    ```
 
 2. Create a virtual environment and activate it:
@@ -53,7 +53,7 @@ The API will be available at `http://localhost:5001`
 {
   "email": "emmanuelekwere19@gmail.com",
   "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/EmmyAnieDev/hng12-stage0-backend-task"
+  "github_url": "https://github.com/EmmyAnieDev/hngx-stage0-basic-information-api.git"
 }
 ```
 
